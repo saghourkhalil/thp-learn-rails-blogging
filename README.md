@@ -20,7 +20,9 @@ Rails | 5.2.0
 
 `git clone https://github.com/VITRI0L/thp-learn-rails-blogging.git tlrb`
 
-In your terminal use `rails console` to explore the database.
+In your terminal type `cd db/migrate_archive` to see what's migration has been executed.
+In your terminal type `cd db/` and open `seeds.rb` with you IDE for explore what's seeds has been used.
+In your terminal use `rails console` to explore the database and type any of the followed command :
 
 ##### SHOW ALL CONTENT
 > These command need to be typed into the rails console<br>
@@ -46,9 +48,7 @@ Post     | `Post.find_by(item: type)`     | title: string<br> content: text    |
 Comment  | `Comment.find_by(item: type)`  | content: text                      | user_id: integer<br> post_id: integer
 Like     | `Like.find_by(item: type)`     | null/null/null                     | null/null/null
 
-##### WORK IN PROGRESS
-
-Work in Progress
 
 ### AUTHOR
-Created by Jolan Lacroix - VITRI0L
+
+Created by *Jolan Lacroix* - VITRI0L
