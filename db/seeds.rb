@@ -26,7 +26,7 @@
 #11.times do |index|
 #    post = Post.find(index + 1)
 #    c = Category.find(3)
-#    post.category = c.name
+#    post.category = c
 #    post.save
 #end
 # ----------------------------------------------------------------------------------
@@ -39,5 +39,28 @@
 #    c = Category.find(3)
 #    c.nb_posts_linked = index + 1
 #    c.save
+#end
+# ----------------------------------------------------------------------------------
+
+# SIX SEED USED TO GENERATE 10 USERS CREATORS OF 10 POST ----------------------------------
+#4.times do |index|
+#    post = Post.find(index + 1)
+#    u = User.find(3)
+#    post.user = u
+#    post.save
+#end
+#
+#4.times do |index|
+#    post = Post.find(4 + (index + 1))
+#    u = User.find(1)
+#    post.user = u
+#    post.save
+#end
+
+#2.times do |index|
+#    post = Post.find(8 + (index + 1))
+#    u = User.find(6)
+#    post.user = u
+#    post.save
 #end
 # ----------------------------------------------------------------------------------
