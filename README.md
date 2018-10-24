@@ -2,6 +2,7 @@
 # MINIMAL RoRAILS BLOGGING DATABASE
 
 ![alt text][logo]
+
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/411px-Ruby_On_Rails_Logo.svg.png "RUBY ON RAILS"
 
 This project consist to learn how to manage database with Ruby on Rails.
