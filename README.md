@@ -19,7 +19,7 @@ Rails | 5.2.0
 In your terminal use `rails console` to explore the database.
 
 ##### SHOW ALL CONTENT
-> These command need to be typed into the rails console
+> These command need to be typed into the rails console<br>
 > Allow you to show all content of a specify table in a array
 
 TABLE    | RAILS COMMAND       
@@ -31,7 +31,7 @@ Comment  | `Comment.take(15)`
 Like     | `Like.take(15)`     
 
 ##### SHOW CONTENT BY ITEM
-> These command need to be typed into the rails console
+> These command need to be typed into the rails console<br>
 > Allow you to show content by specify item in a specify table
 
 TABLE    | RAILS COMMAND                  | ALLOWED ITEM                    | ALLOWED LINKED ITEM
