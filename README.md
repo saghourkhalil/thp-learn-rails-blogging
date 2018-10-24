@@ -18,7 +18,7 @@ Rails | 5.2.0
 
 ### HOW IT'S WORK ?
 
-`git clone https://github.com/VITRI0L/thp-learn-rails-blogging.git tlrb`
+`git clone https://github.com/VITRI0L/thp-learn-rails-blogging.git`
 
 In your terminal type `cd db/migrate_archive` to see what's migration has been executed.<br>
 In your terminal type `cd db/` and open `seeds.rb` with you IDE for explore what's seeds has been used.<br>
