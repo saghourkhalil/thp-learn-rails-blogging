@@ -28,7 +28,6 @@ Post     | `Post.take(10)`
 Category | `Category.take(5)`  
 Comment  | `Comment.take(15)`  
 Like     | `Like.take(15)`     
--------- | -------------------
 
 ##### SHOW CONTENT BY ITEM
 
@@ -39,7 +38,6 @@ User     | `User.find_by(item: type)`     | username: string, mail: string  | nu
 Post     | `Post.find_by(item: type)`     | title: string, content: text    | user_id: integer, category_id: integer
 Comment  | `Comment.find_by(item: type)`  | content: text                   | user_id: integer, post_id: integer
 Like     | `Like.find_by(item: type)`     | null/null/null                  | null/null/null
--------- | ------------------------------ | ------------------------------- | -----------------------
 
 ##### WORK IN PROGRESS
 
