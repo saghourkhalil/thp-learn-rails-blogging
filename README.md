@@ -20,8 +20,8 @@ Rails | 5.2.0
 
 `git clone https://github.com/VITRI0L/thp-learn-rails-blogging.git tlrb`
 
-In your terminal type `cd db/migrate_archive` to see what's migration has been executed.
-In your terminal type `cd db/` and open `seeds.rb` with you IDE for explore what's seeds has been used.
+In your terminal type `cd db/migrate_archive` to see what's migration has been executed.<br>
+In your terminal type `cd db/` and open `seeds.rb` with you IDE for explore what's seeds has been used.<br>
 In your terminal use `rails console` to explore the database and type any of the followed command :
 
 ##### SHOW ALL CONTENT
