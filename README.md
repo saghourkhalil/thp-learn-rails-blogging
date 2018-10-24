@@ -12,5 +12,9 @@ NAME  | Version
 Ruby  | 2.5.1
 Rails | 5.2.0
 
+### HOW TO USE
+
+Work in progress...
+
 ### AUTHOR
 Created by Jolan Lacroix - VITRI0L
