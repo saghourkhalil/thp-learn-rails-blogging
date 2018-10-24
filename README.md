@@ -38,13 +38,13 @@ Like     | `Like.take(15)`
 > These command need to be typed into the rails console<br>
 > Allow you to show content by specify item in a specify table
 
-TABLE    | RAILS COMMAND                  | ALLOWED ITEM                    | ALLOWED LINKED ITEM
--------- | ------------------------------ | ------------------------------- | -----------------------
-Category | `Category.find_by(item: type)` | name: string                    | null/null/null
-User     | `User.find_by(item: type)`     | username: string, mail: string  | null/null/null
-Post     | `Post.find_by(item: type)`     | title: string, content: text    | user_id: integer, category_id: integer
-Comment  | `Comment.find_by(item: type)`  | content: text                   | user_id: integer, post_id: integer
-Like     | `Like.find_by(item: type)`     | null/null/null                  | null/null/null
+TABLE    | RAILS COMMAND                  | ALLOWED ITEM                       | ALLOWED LINKED ITEM
+-------- | ------------------------------ | ---------------------------------- | -----------------------
+Category | `Category.find_by(item: type)` | name: string                       | null/null/null
+User     | `User.find_by(item: type)`     | username: string<br> mail: string  | null/null/null
+Post     | `Post.find_by(item: type)`     | title: string<br> content: text    | user_id: integer<br> category_id: integer
+Comment  | `Comment.find_by(item: type)`  | content: text                      | user_id: integer<br> post_id: integer
+Like     | `Like.find_by(item: type)`     | null/null/null                     | null/null/null
 
 ##### WORK IN PROGRESS
 
