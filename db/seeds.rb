@@ -15,3 +15,29 @@
 #    i += 1
 #end
 # ----------------------------------------------------------------------------------
+
+# THIRD SEED USED TO GENERATE 10 CATEGORIES IN CATEGORY TABLE --------------------------------------
+#5.times do |index|
+#    cat = Category.create!(name: "Category Name #{index}")
+#end
+# ----------------------------------------------------------------------------------
+
+# FOUR SEED USED TO GENERATE 10 POSTS LISTED IN TRENDINGS CATEGORY ------------------------------------
+#11.times do |index|
+#    post = Post.find(index + 1)
+#    c = Category.find(3)
+#    post.category = c.name
+#    post.save
+#end
+# ----------------------------------------------------------------------------------
+
+# FIVE SEED USED TO GENERATE THE LINKED POSTS AT TRENDINGS CATEGORY (ONLY FOR TEST) -----------------------------------
+# Create Migration add_columns :categories, :nb_posts_linked, :integer, and run seed to see the results !
+#array = Post.where(category: 'Trendings').take(100)
+#len = array.length
+#len.times do |index|
+#    c = Category.find(3)
+#    c.nb_posts_linked = index + 1
+#    c.save
+#end
+# ----------------------------------------------------------------------------------
