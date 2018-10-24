@@ -1,6 +1,11 @@
 ***
 # MINIMAL RoRAILS BLOGGING DATABASE
 
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/411px-Ruby_On_Rails_Logo.svg.png "Logo Title Text 2"
+
 This project consist to learn how to manage database with Ruby on Rails.
 
 > ACTUAL SUBJECT : Create a database where users are allowed to post content, comment content, like content and manage posted content by category.
