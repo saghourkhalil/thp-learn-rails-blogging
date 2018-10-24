@@ -46,7 +46,7 @@ Category | `Category.find_by(item: type)` | name: string                       |
 User     | `User.find_by(item: type)`     | username: string<br> mail: string  | null/null/null
 Post     | `Post.find_by(item: type)`     | title: string<br> content: text    | user_id: integer<br> category_id: integer
 Comment  | `Comment.find_by(item: type)`  | content: text                      | user_id: integer<br> post_id: integer
-Like     | `Like.find_by(item: type)`     | null/null/null                     | null/null/null
+Like     | `Like.find_by(item: type)`     | null/null/null                     | user_id: integer<br> post_id: integer
 
 
 ### AUTHOR

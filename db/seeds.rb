@@ -112,30 +112,30 @@
 # ------------------------------------------
 
 # EIGHT SEED USED TO GENERATE 15 LIKE TO 3 POSTS FROM 3 USERS
-5.times do |index|
-    u = User.find(9)
-    a = Post.find(1)
-    like = Like.find(index + 1)
-    like.user = u
-    like.post = a
-    like.save
-end
-
-5.times do |index|
-    u = User.find(3)
-    a = Post.find(7)
-    like = Like.find(5 + (index + 1))
-    like.user = u
-    like.post = a
-    like.save
-end
-
-5.times do |index|
-    u = User.find(1)
-    a = Post.find(6)
-    like = Like.find(10 + (index + 1))
-    like.user = u
-    like.post = a
-    like.save
-end
+#5.times do |index|
+#    u = User.find(9)
+#    a = Post.find(1)
+#    like = Like.find(index + 1)
+#    like.user = u
+#    like.post = a
+#    like.save
+#end
+#
+#5.times do |index|
+#    u = User.find(3)
+#    a = Post.find(7)
+#    like = Like.find(5 + (index + 1))
+#    like.user = u
+#    like.post = a
+#    like.save
+#end
+#
+#5.times do |index|
+#    u = User.find(1)
+#    a = Post.find(6)
+#    like = Like.find(10 + (index + 1))
+#    like.user = u
+#    like.post = a
+#    like.save
+#end
 #-----------------------------------------
